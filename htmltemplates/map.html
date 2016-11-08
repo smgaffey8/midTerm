@@ -1,24 +1,24 @@
 <div id="map_container" style="height:50%;">
 
-<div id='iti_params'>
-  <div class='title'>Itinerary in Switzerland</div>
+    <div id='iti_params'>
+        <div class='title'>Itinerary in Switzerland</div>
 
-  <table>
-    <tr>
-      <td><label for="departure_city">Departure city:</label></td>
-      <td><input type="text" id="departure_city" value="" /></td>
-    </tr>
-    <tr>
-      <td><label for="arrival_city">Arrival city: </label></td>
-      <td><input type="text" id="arrival_city" value="" /></td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td><input type="button" value="Search" ng-click='map.fLaunchSearchIti()'/></td>
-    </tr>
-</table>
-  Distance: <span id="iti_distance"></span>
-</div>
+        <table>
+            <tr>
+                <td><label for="departure_city">Departure city:</label></td>
+                <td><input type="text" id="departure_city" value="" /></td>
+            </tr>
+            <tr>
+                <td><label for="arrival_city">Arrival city: </label></td>
+                <td><input type="text" id="arrival_city" value="" /></td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td><input type="button" value="Search" ng-click='map.fLaunchSearchIti()' /></td>
+            </tr>
+        </table>
+        Distance: <span id="iti_distance"></span>
+    </div>
 </div>
 
 <pre id="output"></pre>

@@ -1,251 +1,258 @@
 body {
-  width: 100%;
-  height: 100%;
-
-  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100%;
+    font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 html {
-  width: 100%;
-  height: 100%;
-  /*background: url('https://drscdn.500px.org/photo/102393401/m%3D2048/0293d701892125f31e4e2f35ff12a9fe');*/
+    width: 100%;
+    height: 100%;
+    /*background: url('https://drscdn.500px.org/photo/102393401/m%3D2048/0293d701892125f31e4e2f35ff12a9fe');*/
 }
-p {
-  margin: auto;
 
-  font-size: 18px;
-  line-height: 1.5;
+p {
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.5;
 }
-.navbar{
+
+.navbar {
     margin-bottom: 0px;
 }
 
 @media (min-width: 768px) {
-  p {
-    margin: auto;
-
-    font-size: 20px;
-    line-height: 1.6;
-  }
+    p {
+        margin: auto;
+        font-size: 20px;
+        line-height: 1.6;
+    }
 }
+
 a {
-  transition: all 0.2s ease-in-out;
-
-  color: #42DCA3;
+    transition: all 0.2s ease-in-out;
+    color: #42DCA3;
 }
-a:hover,
-a:focus {
-  text-decoration: none;
 
-  color: #1d9b6c;
+a:hover, a:focus {
+    text-decoration: none;
+    color: #1d9b6c;
 }
+
 .light {
-  font-weight: 400;
+    font-weight: 400;
 }
+
 .navbar-custom {
-  margin-bottom: 0;
-
-  text-transform: uppercase;
-
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.navbar-custom .navbar-toggle:focus,
-.navbar-custom .navbar-toggle:active {
-  outline: none;
-}
-.navbar-custom .navbar-brand {
-  font-weight: 700;
-}
-.navbar-custom .navbar-brand:focus {
-  outline: none;
-}
-.navbar-custom a {
-  color: white;
-}
-.navbar-custom .nav li a {
-  transition: background 0.3s ease-in-out;
-}
-.navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
-  outline: none;
-  background-color: transparent;
-}
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
-  outline: none;
-  background-color: transparent;
-}
-.navbar-custom .nav li.active {
-  outline: none;
-}
-.navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
-}
-.navbar-custom .nav li.active a:hover {
-  color: white;
-}
-@media (min-width: 768px) {
-  .navbar-custom {
-    padding: 0px 0;
-
-    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
-    letter-spacing: 1px;
-
-    border-bottom: none;
-    background: transparent;
-  }
-  .navbar-custom.top-nav-collapse {
-    padding: 0;
-
+    margin-bottom: 0;
+    text-transform: uppercase;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background: black;
-  }
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.intro {
-  display: table;
 
-  width: 100%;
-  height: auto;
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:active {
+    outline: none;
+}
 
-  text-align: center;
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+}
 
-  color: white;
-  background: url('http://img.wallpaperfolder.com/f/4FF0D5D99B6D/tropical-purple-sunset-pictures-1920x1200.jpg') no-repeat bottom center scroll;
-  background-color: black;
-  background-size: cover;
+.navbar-custom .navbar-brand:focus {
+    outline: none;
 }
-.intro .intro-body {
-  display: table-cell;
 
-  vertical-align: middle;
+.navbar-custom a {
+    color: white;
 }
-.intro .intro-body .brand-heading {
-  font-size: 40px;
+
+.navbar-custom .nav li a {
+    transition: background 0.3s ease-in-out;
 }
-.intro .intro-body .intro-text {
-  font-size: 18px;
+
+.navbar-custom .nav li a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    outline: none;
+    background-color: transparent;
 }
+
+.navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
+    outline: none;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: none;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: white;
+}
+
 @media (min-width: 768px) {
-  .intro {
-    height: 100%;
-    padding: 0;
-  }
-  .intro .intro-body .brand-heading {
-    font-size: 100px;
-  }
-  .intro .intro-body .intro-text {
-    font-size: 26px;
-  }
+    .navbar-custom {
+        padding: 0px 0;
+        -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+        letter-spacing: 1px;
+        border-bottom: none;
+        background: transparent;
+    }
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        background: black;
+    }
 }
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    background: url('http://img.wallpaperfolder.com/f/4FF0D5D99B6D/tropical-purple-sunset-pictures-1920x1200.jpg') no-repeat bottom center scroll;
+    background-color: black;
+    background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+}
+
 .btn-circle {
-  width: 70px;
-  height: 70px;
-  margin-top: 15px;
-  padding: 7px 16px;
-
-  transition: background 0.3s ease-in-out;
-
-  color: white;
-  border: 2px solid white;
-  border-radius: 100% !important;
-  background: transparent;
-
-  font-size: 40px;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    transition: background 0.3s ease-in-out;
+    color: white;
+    border: 2px solid white;
+    border-radius: 100% !important;
+    background: transparent;
+    font-size: 40px;
 }
-.btn-circle:hover,
-.btn-circle:focus {
-  color: white;
-  outline: none;
-  background: rgba(255, 255, 255, 0.1);
+
+.btn-circle:hover, .btn-circle:focus {
+    color: white;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
 }
+
 .btn-circle i.animated {
-  -webkit-transition-duration: 1s;
-  -moz-transition-duration: 1s;
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
 }
+
 .btn-circle:hover i.animated {
-  -webkit-animation-name: pulse;
-  -moz-animation-name: pulse;
-  -webkit-animation-duration: 1.5s;
-  -moz-animation-duration: 1.5s;
-  -webkit-animation-timing-function: linear;
-  -moz-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  -moz-animation-iteration-count: infinite;
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
 }
+
 @-webkit-keyframes pulse {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
 }
+
 @-moz-keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
-  }
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 @media (min-width: 767px) {
-.btn {
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  text-transform: uppercase;
+    .btn {
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
+        border-radius: 0;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: 400;
+    }
+    .btn-default {
+        color: #42DCA3;
+        border: 1px solid #42DCA3;
+        background-color: transparent;
+    }
+    .btn-default:hover, .btn-default:focus {
+        color: black;
+        border: 1px solid #42DCA3;
+        outline: none;
+        background-color: #42DCA3;
+    }
+    ul.banner-social-buttons {
+        margin-top: 0;
+    }
+}
 
-  border-radius: 0;
-
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 400;
-}
-.btn-default {
-  color: #42DCA3;
-  border: 1px solid #42DCA3;
-  background-color: transparent;
-}
-.btn-default:hover,
-.btn-default:focus {
-  color: black;
-  border: 1px solid #42DCA3;
-  outline: none;
-  background-color: #42DCA3;
-}
-ul.banner-social-buttons {
-  margin-top: 0;
-}
-}
 @media (max-width: 1199px) {
-  ul.banner-social-buttons {
-    margin-top: 15px;
-  }
+    ul.banner-social-buttons {
+        margin-top: 15px;
+    }
 }
-@media (max-width: 767px) {
-  ul.banner-social-buttons li {
-    display: block;
 
-    padding: 0;
-  }
-  ul.banner-social-buttons li:last-child {
-    margin-bottom: 0;
-  }
+@media (max-width: 767px) {
+    ul.banner-social-buttons li {
+        display: block;
+        padding: 0;
+    }
+    ul.banner-social-buttons li:last-child {
+        margin-bottom: 0;
+    }
 }
+
+
 /*::-moz-selection {
   text-shadow: none;
   background: #fcfcfc;
@@ -259,58 +266,66 @@ ul.banner-social-buttons {
 img::selection {
   background: transparent;
 }*/
+
+
 /*body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }*/
 
-#map_container{
-  height: 500px;
-  /*width: 100%;*/
-  margin: 0px;
-  padding-top: 10px;
+#map_container {
+    height: 500px;
+    /*width: 100%;*/
+    margin: 0px;
+    padding-top: 10px;
 }
-input{
-  width:150px;
-}
-#iti_params{
-  position:absolute;
-  z-index: 2;
-  top: 35px;
-  left:35px;
 
-  padding: 5px;
+input {
+    width: 150px;
+}
 
-  opacity:0.6;
-  background-color:#fff;
+#iti_params {
+    position: absolute;
+    z-index: 2;
+    top: 35px;
+    left: 35px;
+    padding: 5px;
+    opacity: 0.6;
+    background-color: #fff;
+    filter: Alpha(Opacity=60);
+    ;
+}
 
-  filter: Alpha(Opacity=60);;
+#iti_params:hover {
+    opacity: 1.0;
+    filter: Alpha(Opacity=100);
 }
-#iti_params:hover{
-  opacity:1.0;
 
-  filter: Alpha(Opacity=100);
+#iti_distance {
+    font-weight: bold;
 }
-#iti_distance{
-  font-weight:bold;
-}
-.text-center h2{
-  padding-bottom: 2%;
 
-  color: black;
+.text-center h2 {
+    padding-bottom: 2%;
+    color: black;
 }
-.editContent h1{
-  text-align: center;
+
+.editContent h1 {
+    text-align: center;
 }
-label{
+
+label {
     margin-bottom: 10px;
 }
+
 .intro {
-    height:100%;
+    height: 100%;
 }
-input#checkbox1{
-    position:relative;
+
+input#checkbox1 {
+    position: relative;
     float: left;
 }
-.item, .item active{
+
+.item, .item active {
     padding-bottom: 20px;
 }
